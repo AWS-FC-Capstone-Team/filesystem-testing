@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+docker build -t sysbench_io_docker_1 .
+docker run -ti sysbench_io_docker_1
+docker cp  sysbench_io_docker_1:/testFiles_async/runAllIOTestsDocker_async.sh /IODockerAsyncOutputs
+docker cp  sysbench_io_docker_1:/testFiles_sync/runAllIOTestsDocker_sync.sh /IODockerSyncOutputs
+docker stop sysbench_io_docker_1

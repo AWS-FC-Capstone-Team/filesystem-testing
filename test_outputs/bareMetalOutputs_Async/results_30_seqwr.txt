@@ -1,0 +1,45 @@
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 30
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+20 files, 6.4GiB each
+128GiB total file size
+Block size 16KiB
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using asynchronous I/O mode
+Doing sequential write (creation) test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      0.00
+    writes/s:                     2682.10
+    fsyncs/s:                     556.20
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               41.91
+
+General statistics:
+    total time:                          30.2715s
+    total number of events:              97439
+
+Latency (ms):
+         min:                                    0.01
+         avg:                                    9.26
+         max:                                 1666.97
+         95th percentile:                       43.39
+         sum:                               902625.96
+
+Threads fairness:
+    events (avg/stddev):           3247.9667/331.09
+    execution time (avg/stddev):   30.0875/0.06
+

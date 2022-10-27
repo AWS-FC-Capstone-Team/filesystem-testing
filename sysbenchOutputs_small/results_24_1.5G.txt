@@ -1,4 +1,0 @@
-WARNING: --num-threads is deprecated, use --threads instead
-sysbench 1.0.20 (using bundled LuaJIT 2.1.0-beta2)
-
-FATAL: Invalid value for file-total-size: 0
