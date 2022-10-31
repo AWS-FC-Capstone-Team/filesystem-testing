@@ -7,8 +7,8 @@ Initializing random number generator from current time
 
 
 Extra file open flags: (none)
-20 files, 819.2MiB each
-16GiB total file size
+20 files, 256MiB each
+5GiB total file size
 Block size 16KiB
 Number of IO requests: 0
 Read/Write ratio for combined random IO test: 1.50
@@ -23,25 +23,25 @@ Threads started!
 
 File operations:
     reads/s:                      0.00
-    writes/s:                     199.33
-    fsyncs/s:                     53.20
+    writes/s:                     223.98
+    fsyncs/s:                     58.40
 
 Throughput:
     read, MiB/s:                  0.00
-    written, MiB/s:               3.11
+    written, MiB/s:               3.50
 
 General statistics:
-    total time:                          30.5994s
-    total number of events:              7308
+    total time:                          30.3561s
+    total number of events:              8153
 
 Latency (ms):
          min:                                    0.01
-         avg:                                   86.83
-         max:                                 1475.17
-         95th percentile:                      580.02
-         sum:                               634541.50
+         avg:                                   77.81
+         max:                                 1178.42
+         95th percentile:                      520.62
+         sum:                               634412.68
 
 Threads fairness:
-    events (avg/stddev):           348.0000/71.65
-    execution time (avg/stddev):   30.2163/0.07
+    events (avg/stddev):           388.2381/73.41
+    execution time (avg/stddev):   30.2101/0.03
 

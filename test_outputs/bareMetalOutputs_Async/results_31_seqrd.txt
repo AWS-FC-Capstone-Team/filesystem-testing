@@ -7,8 +7,8 @@ Initializing random number generator from current time
 
 
 Extra file open flags: (none)
-20 files, 6.4GiB each
-128GiB total file size
+20 files, 256MiB each
+5GiB total file size
 Block size 16KiB
 Periodic FSYNC enabled, calling fsync() each 100 requests.
 Calling fsync() at the end of test, Enabled.
@@ -20,26 +20,26 @@ Threads started!
 
 
 File operations:
-    reads/s:                      156194.45
+    reads/s:                      480286.47
     writes/s:                     0.00
     fsyncs/s:                     0.00
 
 Throughput:
-    read, MiB/s:                  2440.53
+    read, MiB/s:                  7504.48
     written, MiB/s:               0.00
 
 General statistics:
-    total time:                          30.0008s
-    total number of events:              4686214
+    total time:                          30.0010s
+    total number of events:              14409956
 
 Latency (ms):
          min:                                    0.00
-         avg:                                    0.16
-         max:                                  500.16
-         95th percentile:                        0.03
-         sum:                               769772.46
+         avg:                                    0.02
+         max:                                    6.16
+         95th percentile:                        0.02
+         sum:                               313846.37
 
 Threads fairness:
-    events (avg/stddev):           151168.1935/1835.31
-    execution time (avg/stddev):   24.8314/0.07
+    events (avg/stddev):           464837.2903/12862.21
+    execution time (avg/stddev):   10.1241/0.31
 
